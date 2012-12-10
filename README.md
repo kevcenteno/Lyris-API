@@ -12,7 +12,7 @@ Documentation
 In lyris.cs, change lyrisSiteID and lyrisPassword as appropriate.  
 
 ```c#
-private string lyrisSiteID = "123456"; // Lyris Site ID here
+private int lyrisSiteID = 123456; // Lyris Site ID here
 private string lyrisPassword = "password"; // Lyris API password here
 ```
 
