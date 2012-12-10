@@ -12,7 +12,7 @@ namespace Lyris
     public class LyrisService
     {
         private string lyrisURL = "https://www.elabs10.com/API/mailing_list.html";
-        private string lyrisSiteID = "123456"; // Lyris Site ID here
+        private int lyrisSiteID = 123456; // Lyris Site ID here
         private string lyrisPassword = "password"; // Lyris API password here
         public string lyrisResponse;
         public string lyrisMessage;
