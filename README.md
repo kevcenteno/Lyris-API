@@ -26,7 +26,7 @@ An example of usage on a page:
     var MLID = 12345; // MLID here
     var email = "email@email.com"; // Email you want to submit
     
-    var demographics = new Dictionary<int, string>();
+    Dictionary<int, string> demographics = new Dictionary<int, string>()
     {
         // Format is {demographic ID, demographic value}
         // The ID is setup in Lyris / EmailLabs.  The value is taken from the form
